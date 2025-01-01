@@ -80,7 +80,7 @@ const translations = {
         // Additional Technologies
         'additional-tech-title': 'Additional Technologies',
         'tech-git': 'Version Control: Git',
-        'tech-windows': 'Operating System: Windows 11',
+        'tech-DevOps': 'DevOps',
         'tech-cloud': 'Cloud Deployment: Azure, AWS',
         
         'contact-title': 'Contact Me',
@@ -174,7 +174,7 @@ const translations = {
         // التقنيات الإضافية
         'additional-tech-title': 'التقنيات الإضافية',
         'tech-git': 'التحكم بالإصدارات: Git',
-        'tech-windows': 'نظام التشغيل: Windows 11',
+        'tech-DevOps': 'DevOps',
         'tech-cloud': 'النشر السحابي: Azure، AWS',
         
         'contact-title': 'تواصل معي',
