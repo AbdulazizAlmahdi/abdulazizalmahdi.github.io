@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="page-title">Abdulaziz Almahdi - System Analyst & Full-Stack Developer</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts - Include Arabic font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#" data-i18n="name">Abdulaziz Almahdi</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home" data-i18n="nav-home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" data-i18n="nav-about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills" data-i18n="nav-skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio" data-i18n="nav-portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" data-i18n="nav-contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link theme-toggle-nav" id="themeToggle" aria-label="Toggle Dark Mode">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link language-toggle" id="languageToggle">
+                            <span data-i18n="language-toggle">ع</span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-md-12 text-center">
+                    <h1 class="display-1" data-aos="fade-up" data-i18n="hero-title">Your Name</h1>
+                    <h2 class="typed-text" data-aos="fade-up" data-aos-delay="100"></h2>
+                    <p class="lead mt-4" data-aos="fade-up" data-aos-delay="200" data-i18n="hero-description">
+                        Empowering Businesses Through Innovative Software Solutions
+                    </p>
+                    <div class="hero-buttons mt-5" data-aos="fade-up" data-aos-delay="300">
+                        <a href="#portfolio" class="btn btn-primary me-3" data-i18n="hero-portfolio">View My Work</a>
+                        <a href="#contact" class="btn btn-outline-primary" data-i18n="hero-contact">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <h2 class="section-title text-center" data-aos="fade-up" data-i18n="about-title">About Me</h2>
+            <div class="row align-items-center">
+                <div class="col-md-5" data-aos="fade-right">
+                    <div class="profile-container">
+                        <div class="profile-img-wrapper">
+                            <div class="profile-img-inner">
+                                <img src="assets/images/profile-placeholder.jpg" alt="Profile Picture" class="profile-img" id="profile-image">
+                            </div>
+                            <div class="profile-shape"></div>
+                        </div>
+                        <div class="profile-social">
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7" data-aos="fade-left">
+                    <h3 data-i18n="about-subtitle">System Analyst & Full-Stack Developer</h3>
+                    <p class="lead" data-i18n="about-description">
+                        A dedicated system analyst with experience in designing, developing, and implementing innovative software solutions using advanced frameworks and technologies.
+                    </p>
+                    <div class="mt-4">
+                        <a href="#" class="btn btn-primary" data-i18n="about-resume">Download Resume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title text-center" data-aos="fade-up" data-i18n="skills-title">Skills</h2>
+            
+            <!-- Programming Languages -->
+            <div class="skill-category" data-aos="fade-up">
+                <h3 data-i18n="skills-programming">Programming Languages</h3>
+                <div class="skill-grid">
+                    <div class="skill-item" data-skill="90">
+                        <i class="devicon-csharp-plain colored"></i>
+                        <span data-i18n="skill-csharp">C#</span>
+                        <div class="skill-progress"><div class="progress-bar"></div></div>
+                    </div>
+                    <div class="skill-item" data-skill="85">
+                        <i class="devicon-php-plain colored"></i>
+                        <span data-i18n="skill-php">PHP</span>
+                        <div class="skill-progress"><div class="progress-bar"></div></div>
+                    </div>
+                    <div class="skill-item" data-skill="88">
+                        <i class="devicon-javascript-plain colored"></i>
+                        <span data-i18n="skill-javascript">JavaScript</span>
+                        <div class="skill-progress"><div class="progress-bar"></div></div>
+                    </div>
+                    <div class="skill-item" data-skill="92">
+                        <i class="devicon-mysql-plain colored"></i>
+                        <span data-i18n="skill-sql">SQL</span>
+                        <div class="skill-progress"><div class="progress-bar"></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Databases -->
+            <div class="skill-category" data-aos="fade-up">
+                <h3 data-i18n="skills-databases">Databases</h3>
+                <div class="skill-grid">
+                    <div class="skill-item" data-skill="90">
+                        <i class="devicon-microsoftsqlserver-plain colored"></i>
+                        <span data-i18n="skill-sqlserver">SQL Server</span>
+                        <div class="skill-progress"><div class="progress-bar"></div></div>
+                    </div>
+                    <div class="skill-item" data-skill="85">
+                        <i class="devicon-mysql-plain colored"></i>
+                        <span data-i18n="skill-mysql">MySQL</span>
+                        <div class="skill-progress"><div class="progress-bar"></div></div>
+                    </div>
+                    <div class="skill-item" data-skill="80">
+                        <i class="devicon-postgresql-plain colored"></i>
+                        <span data-i18n="skill-postgresql">PostgreSQL</span>
+                        <div class="skill-progress"><div class="progress-bar"></div></div>
+                    </div>
+                    <div class="skill-item" data-skill="75">
+                        <i class="devicon-mongodb-plain colored"></i>
+                        <span data-i18n="skill-mongodb">MongoDB</span>
+                        <div class="skill-progress"><div class="progress-bar"></div></div>
+                    </div>
+                    <div class="skill-item" data-skill="78">
+                        <img src="assets/images/oracle-icon.png" alt="Oracle">
+                        <span data-i18n="skill-oracle">Oracle</span>
+                        <div class="skill-progress"><div class="progress-bar"></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Frameworks -->
+            <div class="skill-category" data-aos="fade-up">
+                <h3 data-i18n="skills-frameworks">Frameworks</h3>
+                <div class="skill-grid">
+                    <div class="skill-item" data-skill="88">
+                        <i class="devicon-dotnetcore-plain colored"></i>
+                        <span data-i18n="skill-aspnet">ASP.NET</span>
+                        <div class="skill-progress"><div class="progress-bar"></div></div>
+                    </div>
+                    <div class="skill-item" data-skill="82">
+                        <i class="devicon-nodejs-plain colored"></i>
+                        <span data-i18n="skill-nodejs">Node.js</span>
+                        <div class="skill-progress"><div class="progress-bar"></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Software Engineering -->
+            <div class="skill-category" data-aos="fade-up">
+                <h3 data-i18n="skills-software-engineering">Software Engineering</h3>
+                <div class="skill-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-code"></i></div>
+                        <h4 data-i18n="skill-solid">SOLID Principles</h4>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-layer-group"></i></div>
+                        <h4 data-i18n="skill-clean-arch">Clean Architecture</h4>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-microchip"></i></div>
+                        <h4 data-i18n="skill-microservices">Microservices Architecture</h4>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-network-wired"></i></div>
+                        <h4 data-i18n="skill-api-gateway">API Gateway Implementation</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Development -->
+            <div class="skill-category" data-aos="fade-up">
+                <h3 data-i18n="skills-development">General Development</h3>
+                <div class="skill-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-sitemap"></i></div>
+                        <h4 data-i18n="skill-system-analysis">System Analysis & Design</h4>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-desktop"></i></div>
+                        <h4 data-i18n="skill-frontend">Frontend Development</h4>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-server"></i></div>
+                        <h4 data-i18n="skill-backend">Backend Development</h4>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-cogs"></i></div>
+                        <h4 data-i18n="skill-solutions">Integrated Solutions</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding">
+        <div class="container">
+            <h2 class="section-title text-center" data-aos="fade-up" data-i18n="projects-title">Projects</h2>
+            <div class="row">
+                <!-- Review Management System -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <h3 data-i18n="project-review-title">Review Management System</h3>
+                        <p data-i18n="project-review-desc"></p>
+                        <div class="project-tech" data-i18n="project-review-tech"></div>
+                    </div>
+                </div>
+
+                <!-- Microservices Application -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <h3 data-i18n="project-microservices-title">Microservices Application</h3>
+                        <p data-i18n="project-microservices-desc"></p>
+                        <div class="project-tech" data-i18n="project-microservices-tech"></div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Website -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3 data-i18n="project-portfolio-title">Professional Portfolio Website</h3>
+                        <p data-i18n="project-portfolio-desc"></p>
+                        <div class="project-tech" data-i18n="project-portfolio-tech"></div>
+                    </div>
+                </div>
+
+                <!-- Data Management Application -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3 data-i18n="project-data-title">Data Management Application</h3>
+                        <p data-i18n="project-data-desc"></p>
+                        <div class="project-tech" data-i18n="project-data-tech"></div>
+                    </div>
+                </div>
+
+                <!-- Software Quality System -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <h3 data-i18n="project-quality-title">Software Quality Improvement System</h3>
+                        <p data-i18n="project-quality-desc"></p>
+                        <div class="project-tech" data-i18n="project-quality-tech"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title text-center" data-aos="fade-up" data-i18n="certifications-title">Certifications</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="certification-card" data-aos="fade-up">
+                        <div class="certification-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <h3 data-i18n="cert-software-improvement"></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional Technologies -->
+    <section id="additional-tech" class="section-padding">
+        <div class="container">
+            <h2 class="section-title text-center" data-aos="fade-up" data-i18n="additional-tech-title">Additional Technologies</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="tech-grid" data-aos="fade-up">
+                        <div class="tech-item">
+                            <i class="devicon-git-plain colored"></i>
+                            <span data-i18n="tech-git"></span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="devicon-windows8-original colored"></i>
+                            <span data-i18n="tech-windows"></span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="devicon-azure-plain colored"></i>
+                            <span data-i18n="tech-cloud"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section-padding">
+        <div class="container">
+            <h2 class="section-title text-center" data-aos="fade-up" data-i18n="portfolio-title">Portfolio</h2>
+            <div class="row g-4">
+                <!-- Portfolio items will be added dynamically via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title text-center" data-aos="fade-up" data-i18n="contact-title">Contact Me</h2>
+            <div class="row">
+                <div class="col-md-6" data-aos="fade-right">
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Your Name" required data-i18n-placeholder="contact-name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Your Email" required data-i18n-placeholder="contact-email">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="5" placeholder="Your Message" required data-i18n-placeholder="contact-message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" data-i18n="contact-submit">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-md-6" data-aos="fade-left">
+                    <div class="contact-info">
+                        <h3 data-i18n="contact-connect">Let's Connect</h3>
+                        <p data-i18n="contact-description">Feel free to reach out for collaborations or just a friendly hello</p>
+                        <div class="contact-details">
+                            <p><i class="fas fa-envelope"></i> your.email@example.com</p>
+                            <p><i class="fas fa-phone"></i> +1234567890</p>
+                            <p><i class="fas fa-map-marker-alt"></i> Your Location</p>
+                        </div>
+                        <div class="social-links mt-4">
+                            <a href="#" class="me-3"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="me-3"><i class="fab fa-github"></i></a>
+                            <a href="#" class="me-3"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p data-i18n="footer-copyright">&copy; 2024 Your Name. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
