@@ -7,7 +7,7 @@ AOS.init({
 
 // Language handling
 let currentLanguage = localStorage.getItem('preferred-language') || 'en';
-
+console.log(currentLanguage);
 // Keyboard shortcut for language switching
 document.addEventListener('keydown', function(event) {
     // Alt + L to switch language
@@ -94,6 +94,11 @@ function initTheme() {
     document.documentElement.setAttribute('data-theme', theme);
     updateThemeIcon(theme);
 }
+function initLanguage() {
+    const lang = localStorage.getItem('preferred-language') || 'en';
+    document.documentElement.lang = lang;
+    changeLanguage(lang);
+}
 
 function toggleTheme() {
     const currentTheme = document.documentElement.getAttribute('data-theme');
@@ -118,7 +123,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Initialize theme
     initTheme();
-
+    initLanguage();
     // Smooth scrolling for navigation links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
