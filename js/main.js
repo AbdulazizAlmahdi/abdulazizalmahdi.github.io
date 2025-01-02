@@ -53,10 +53,14 @@ function changeLanguage(lang) {
 // Update language switcher tooltip
 function updateLanguageSwitcherTooltip() {
     const tooltip = document.getElementById('language-shortcut-tooltip');
+    const languageToggleText = document.getElementById('languageToggleText');
     if (tooltip) {
         tooltip.textContent = currentLanguage === 'en' ? 
             'Press Alt + L to switch to Arabic' : 
             'اضغط Alt + L للتبديل إلى الإنجليزية';
+    }
+    if (languageToggleText) {
+        languageToggleText.textContent = currentLanguage === 'en' ? 'ع' : 'EN';
     }
 }
 
@@ -143,6 +147,15 @@ document.addEventListener('DOMContentLoaded', function() {
     const themeToggle = document.getElementById('themeToggle');
     if (themeToggle) {
         themeToggle.addEventListener('click', toggleTheme);
+    }
+    const languageToggle = document.getElementById('languageToggle');
+    if (languageToggle){
+        languageToggle.addEventListener('click', function(event) {
+            
+                const newLang = currentLanguage === 'en' ? 'ar' : 'en';
+                changeLanguage(newLang);
+           
+        });
     }
 
     // Portfolio items data
