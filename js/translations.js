@@ -21,7 +21,7 @@ const translations = {
         'skills-frameworks': 'Frameworks',
         'skills-software-engineering': 'Software Engineering',
         'skills-development': 'General Development',
-        
+        'location':"Sana'a, Yemen",
         // Programming Languages
         'skill-csharp': 'C#',
         'skill-php': 'PHP',
@@ -108,6 +108,8 @@ const translations = {
         'about-subtitle': 'محلل نظم ومطور برمجيات',
         'about-description': 'محلل نظم متخصص مع خبرة في تصميم وتطوير وتنفيذ حلول برمجية مبتكرة باستخدام أحدث الأطر والتقنيات.',
         'about-resume': 'تحميل السيرة الذاتية',
+        'location':"اليمن , صنعاء",
+
         // المهارات
         'skills-title': 'المهارات',
         'skills-programming': 'لغات البرمجة',
