@@ -568,7 +568,7 @@ body {
 /* Footer */
 .footer {
     background-color: var(--light-color);
-    color: white;
+    color: var(--text-color);
     padding: 2rem 0;
 }
 
