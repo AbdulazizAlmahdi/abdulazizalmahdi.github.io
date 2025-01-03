@@ -2,6 +2,7 @@
 :root {
     --primary-color: #007bff;
     --secondary-color: #6c757d;
+    --gray-color: #ebedefc8;
     --dark-color: #343a40;
     --light-color: #f8f9fa;
     --success-color: #28a745;
@@ -12,21 +13,29 @@
     --body-bg: #ffffff;
     --text-color: #212529;
     --border-color: #dee2e6;
-    --card-bg: #ffffff;
-    --header-bg: rgba(255, 255, 255, 0.95);
+    --card-bg: #fef9f9;
+    --item-bg: #fffffffa;
+    --header-bg: rgba(255, 255, 255, 0.90);
     --transition: all 0.3s ease;
 }
 
 [data-theme="dark"] {
     --primary-color: #0d6efd;
     --secondary-color: #adb5bd;
+    --gray-color: #fefefe5f;
     --dark-color: #f8f9fa;
     --light-color: #212529;
-    --body-bg: #121212;
+    --success-color: #198754;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --info-color: #0dcaf0;
+    --white-color: #000000;
+    --body-bg: #040404;
     --text-color: #f8f9fa;
     --border-color: #2d3238;
-    --card-bg: #1e1e1e;
-    --header-bg: rgba(18, 18, 18, 0.95);
+    --card-bg: #121212;
+    --item-bg: #1e1e1e;
+    --header-bg: rgba(18, 18, 18, 0.90);
 }
 
 body {
@@ -110,7 +119,7 @@ body {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background: linear-gradient(135deg,var(--gray-color) 10%, var(--light-color) 70%);
     position: relative;
     overflow: hidden;
 }
@@ -213,7 +222,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 1.5rem;
-    background: #f8f9fa;
+    background:var(--item-bg);
     border-radius: 10px;
     transition: transform 0.3s ease;
 }
@@ -245,7 +254,7 @@ body {
 }
 
 .skill-card {
-    background: white;
+    background: var(--item-bg);
     padding: 1.5rem;
     border-radius: 10px;
     text-align: center;
@@ -421,7 +430,7 @@ body {
 /* Contact Section */
 .contact-info {
     padding: 2rem;
-    background: white;
+    background: var(--card-bg);
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
