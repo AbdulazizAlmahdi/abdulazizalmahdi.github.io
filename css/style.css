@@ -18,6 +18,10 @@
     --header-bg: rgba(255, 255, 255, 0.90);
     --transition: all 0.3s ease;
 }
+html, body {
+    overflow-x: hidden;
+    transition: width 0.7s ease-in-out;
+}
 
 [data-theme="dark"] {
     --primary-color: #0d6efd;
