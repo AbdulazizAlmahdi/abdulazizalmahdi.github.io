@@ -90,7 +90,8 @@ const translations = {
         'contact-submit': 'Send Message',
         'contact-connect': "Let's Connect",
         'contact-description': 'Feel free to reach out for collaborations or just a friendly hello',
-        'footer-copyright': ' 2024 Abdulaziz Almahdi. All rights reserved.'
+        'footer-copyright1': ' Abdulaziz Almahdi. All rights reserved',
+        'footer-copyright2': 'Copyright ©'
     },
     ar: {
         'page-title': 'عبدالعزيز المهدي - محلل نظم ومطور برمجيات',
@@ -186,6 +187,7 @@ const translations = {
         'contact-submit': 'إرسال الرسالة',
         'contact-connect': 'لنتواصل',
         'contact-description': 'لا تتردد في التواصل للتعاون أو حتى لمجرد إلقاء التحية',
-        'footer-copyright': ' 2024 عبدالعزيز المهدي. جميع الحقوق محفوظة.'
+        'footerCopyright1': 'عبدالعزيز المهدي. جميع الحقوق محفوظة',
+        'footerCopyright2': 'حقوق النشر ©'
     }
 };
