@@ -4,7 +4,10 @@ AOS.init({
     once: true,
     mirror: false
 });
+const currentYear = new Date().getFullYear();
 
+// Insert the current year into the HTML element
+document.getElementById("current-year").textContent = currentYear;
 // Language handling
 let currentLanguage = localStorage.getItem('preferred-language') || 'en';
 console.log(currentLanguage);
